@@ -45,7 +45,7 @@ function App() {
   return (
     <>
       <div
-        className="w-full max-w-md mx-auto shadow-md 
+        className="w-full flex flex-wrap justify-center max-w-md mx-auto shadow-md 
     rounded-lg py-7 px-4 my-8 text-orange-500 bg-gray-700"
       >
         <h1 className="text-2xl text-white text-center my-1">
@@ -53,7 +53,7 @@ function App() {
         </h1>
         <div
           className="flex shadow
-        rounded-lg overflow-hidden "
+        rounded-lg overflow-hidden w-full"
         >
           <input
             type="text"
